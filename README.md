@@ -27,40 +27,30 @@ Program to implement the SVM For Spam Mail Detection..
 Developed by: AADITHYA R
 RegisterNumber:  212223240001
 */
-
 import pandas as pd
 data=pd.read_csv('/content/spam.csv',encoding='Windows-1252')
-
 data.head()
-
 data.info()
-
 data.isnull().sum()
-
 x=data["v1"].values
 y=data["v2"].values
 ```
-```
 from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=0)
-
 from sklearn.feature_extraction.text import CountVectorizer
 cv=CountVectorizer()
-
+```
 x_train=cv.fit_transform(x_train)
 x_test=cv.transform(x_test)
-
 from sklearn.svm import SVC
 svc=SVC()
 svc.fit(x_train,y_train)
 y_pred=svc.predict(x_test)
 y_pred
-
 from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
 ```
-
 ## Output:
 ### data.head():
 ![Screenshot 2024-04-29 133208](https://github.com/Aadithya2201/Implementation-of-SVM-For-Spam-Mail-Detection/assets/145917810/baf4bb87-7e16-445d-92bf-2f5a10792c10)

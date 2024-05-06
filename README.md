@@ -41,6 +41,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 cv=CountVectorizer()
 ```
 ```
+
 x_train=cv.fit_transform(x_train)
 x_test=cv.transform(x_test)
 from sklearn.svm import SVC
@@ -52,6 +53,7 @@ from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
 ```
+
 ## Output:
 ### data.head():
 ![Screenshot 2024-04-29 133208](https://github.com/Aadithya2201/Implementation-of-SVM-For-Spam-Mail-Detection/assets/145917810/baf4bb87-7e16-445d-92bf-2f5a10792c10)

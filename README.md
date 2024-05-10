@@ -17,8 +17,8 @@ step 1.Start
 ## Program:
 ```
 Program to implement the SVM For Spam Mail Detection..
-Developed by: VIKAASH K S
-RegisterNumber:  212223240179
+Developed by: AADITHYA.R
+RegisterNumber:  212223240001
 import pandas as pd
 data=pd.read_csv('/content/spam.csv',encoding='Windows-1252')
 from sklearn.model_selection import train_test_split
@@ -49,6 +49,9 @@ con=confusion_matrix(y_test,y_pred)
 print(con)
 cl=classification_report(y_test,y_pred)
 print(cl)
+
+
+
 ```
 
 ## Output:

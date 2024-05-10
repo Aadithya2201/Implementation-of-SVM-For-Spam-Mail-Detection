@@ -60,9 +60,7 @@ print(cl)
 
 ### x.shape:
 ![exp 9 x shape](https://github.com/23003250/Implementation-of-SVM-For-Spam-Mail-Detection/assets/139331462/7bb6f222-2a1b-40ff-a854-5b1f015e1be0)
-```
 
-```
 
 ### y.shape:
 ![exp 9 x shape](https://github.com/23003250/Implementation-of-SVM-For-Spam-Mail-Detection/assets/139331462/cdbf779c-5abe-426a-9a43-06fabd253930)

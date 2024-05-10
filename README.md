@@ -39,8 +39,6 @@ from sklearn.svm import SVC
 svc=SVC()
 ```
 ```
-
-
 svc.fit(x_train,y_train)
 y_pred=svc.predict(x_test)
 y_pred
@@ -51,9 +49,6 @@ con=confusion_matrix(y_test,y_pred)
 print(con)
 cl=classification_report(y_test,y_pred)
 print(cl)
-
-
-
 ```
 
 ## Output:
@@ -65,6 +60,9 @@ print(cl)
 
 ### x.shape:
 ![exp 9 x shape](https://github.com/23003250/Implementation-of-SVM-For-Spam-Mail-Detection/assets/139331462/7bb6f222-2a1b-40ff-a854-5b1f015e1be0)
+```
+
+```
 
 ### y.shape:
 ![exp 9 x shape](https://github.com/23003250/Implementation-of-SVM-For-Spam-Mail-Detection/assets/139331462/cdbf779c-5abe-426a-9a43-06fabd253930)

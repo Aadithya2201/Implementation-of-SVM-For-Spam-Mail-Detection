@@ -60,8 +60,8 @@ print(cl)
 
 ### x.shape:
 ![exp 9 x shape](https://github.com/23003250/Implementation-of-SVM-For-Spam-Mail-Detection/assets/139331462/7bb6f222-2a1b-40ff-a854-5b1f015e1be0)
-
-
+```
+```
 ### y.shape:
 ![exp 9 x shape](https://github.com/23003250/Implementation-of-SVM-For-Spam-Mail-Detection/assets/139331462/cdbf779c-5abe-426a-9a43-06fabd253930)
 
@@ -70,8 +70,7 @@ print(cl)
 
 ### x_train.shape:
 ![exp 9 x_train shape](https://github.com/23003250/Implementation-of-SVM-For-Spam-Mail-Detection/assets/139331462/0a132e17-a840-4ae2-955e-b866efcfd4ae)
-```
-```
+
 ### y_pred:
 ![exp 9 y_pred](https://github.com/23003250/Implementation-of-SVM-For-Spam-Mail-Detection/assets/139331462/f3edd0ee-06fb-4594-b99e-06a761fe9956)
 

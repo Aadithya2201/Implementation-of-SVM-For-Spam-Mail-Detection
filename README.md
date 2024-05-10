@@ -82,6 +82,8 @@ print(cl)
 
 ### classification_report:
 ![exp 9 classification report](https://github.com/23003250/Implementation-of-SVM-For-Spam-Mail-Detection/assets/139331462/02df2736-a171-4c0d-8a81-4fd5ce0f2c73)
+```
 
+```
 ## Result:
 Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.

@@ -39,6 +39,8 @@ from sklearn.svm import SVC
 svc=SVC()
 ```
 ```
+
+
 svc.fit(x_train,y_train)
 y_pred=svc.predict(x_test)
 y_pred
